@@ -1,0 +1,8 @@
+
+.leftmeun{
+    -fx-background-color:  #0630a9;
+}
+
+.textmeunitem:hover{
+    -fx-background-color: #d30101;
+}

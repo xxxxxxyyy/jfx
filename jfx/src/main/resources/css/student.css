@@ -1,0 +1,34 @@
+.vbox{
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+.hboxTop{
+    -fx-padding: 15px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+.txtkey{
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.btnFind{
+    -fx-background-color: #000000;
+    -fx-text-fill: #ffffff;
+    -fx-pref-width: 80px;
+    -fx-opacity: 0.7;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+.btnAdd{
+    -fx-background-color: #0099cc;
+    -fx-text-fill: #ffffff;
+    -fx-pref-width: 80px;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+.menu-item{
+    -fx-padding: 10px;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="643.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Tj">
+   <children>
+      <TextField fx:id="txtp" layoutX="161.0" layoutY="32.0" prefHeight="56.0" prefWidth="371.0" />
+      <Label layoutX="47.0" layoutY="36.0" prefHeight="49.0" prefWidth="103.0" text="宿舍总人数">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="131.0" prefHeight="49.0" prefWidth="103.0" text="宿舍总数">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtroom" layoutX="161.0" layoutY="127.0" prefHeight="56.0" prefWidth="371.0" />
+      <Label layoutX="24.0" layoutY="224.0" prefHeight="49.0" prefWidth="126.0" text="宿舍总床位数">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtbed" layoutX="161.0" layoutY="220.0" prefHeight="56.0" prefWidth="371.0" />
+      <Label layoutX="24.0" layoutY="303.0" prefHeight="49.0" prefWidth="126.0" text="宿舍空床位数">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtkw" layoutX="161.0" layoutY="299.0" prefHeight="56.0" prefWidth="371.0" />
+      <Label layoutX="47.0" layoutY="382.0" prefHeight="49.0" prefWidth="103.0" text="系统总人数">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtxtp" layoutX="161.0" layoutY="378.0" prefHeight="56.0" prefWidth="371.0" />
+      <TextField fx:id="txtboyp" layoutX="161.0" layoutY="461.0" prefHeight="56.0" prefWidth="371.0" />
+      <Label layoutX="47.0" layoutY="465.0" prefHeight="49.0" prefWidth="103.0" text="男生总人数">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtgril" layoutX="161.0" layoutY="541.0" prefHeight="56.0" prefWidth="371.0" />
+      <Label layoutX="47.0" layoutY="545.0" prefHeight="49.0" prefWidth="103.0" text="女生总人数">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

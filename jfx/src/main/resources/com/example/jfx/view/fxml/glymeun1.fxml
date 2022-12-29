@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="393.0" styleClass="leftmeun" stylesheets="@../../../../../css/leftmenu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Glymeun">
+   <children>
+      <HBox alignment="CENTER" onMouseClicked="#item02Clicked" prefHeight="128.0" prefWidth="393.0" styleClass="leftmeunitem">
+         <children>
+            <ImageView fitHeight="124.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" x="123.0">
+               <image>
+                  <Image url="@../../../../../picture/统计分析-项目表格统计.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="176.0" prefWidth="220.0" text="统计">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox fx:id="gl" alignment="CENTER" onMouseClicked="#item01Clicked" prefHeight="160.0" prefWidth="616.0" styleClass="leftmeunitem" stylesheets="@../../../../../css/leftmenu.css">
+         <children>
+            <ImageView fitHeight="113.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true" x="123.0">
+               <image>
+                  <Image url="@../../../../../picture/账号权限管理.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="99.0" prefWidth="232.0" text="管理">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox fx:id="gl1" alignment="CENTER" onMouseClicked="#item03Clicked" prefHeight="160.0" prefWidth="616.0" styleClass="leftmeunitem" stylesheets="@../../../../../css/leftmenu.css">
+         <children>
+            <ImageView fitHeight="115.0" fitWidth="103.0" pickOnBounds="true" preserveRatio="true" x="123.0">
+               <image>
+                  <Image url="@../../../../../picture/我的报修.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="176.0" prefWidth="220.0" text="报修查看">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox fx:id="gl2" alignment="CENTER" onMouseClicked="#item04Clicked" prefHeight="160.0" prefWidth="616.0" styleClass="leftmeunitem" stylesheets="@../../../../../css/leftmenu.css">
+         <children>
+            <ImageView fitHeight="104.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true" x="123.0">
+               <image>
+                  <Image url="@../../../../../picture/查看.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="176.0" prefWidth="220.0" text="个人信息">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox fx:id="gl21" alignment="CENTER" onMouseClicked="#item05Clicked" prefHeight="160.0" prefWidth="616.0" styleClass="leftmeunitem" stylesheets="@../../../../../css/leftmenu.css">
+         <children>
+            <ImageView fitHeight="103.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" x="123.0">
+               <image>
+                  <Image url="@../../../../../picture/添加用户.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="176.0" prefWidth="220.0" text="添加管理">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>

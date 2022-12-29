@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="481.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Baoxadd">
+   <children>
+      <Label layoutX="37.0" layoutY="40.0" prefHeight="36.0" prefWidth="79.0" text="宿舍号码" />
+      <Label layoutX="31.0" layoutY="205.0" prefHeight="36.0" prefWidth="79.0" text="报修信息" />
+      <TextField fx:id="id" layoutX="130.0" layoutY="43.0" prefHeight="29.0" prefWidth="213.0" />
+      <TextField fx:id="msg" layoutX="130.0" layoutY="205.0" prefHeight="36.0" prefWidth="463.0" />
+      <Label fx:id="roommsg" layoutX="130.0" layoutY="76.0" prefHeight="30.0" prefWidth="213.0" />
+      <Button fx:id="qr" layoutX="255.0" layoutY="338.0" mnemonicParsing="false" onAction="#addbx" prefHeight="30.0" prefWidth="131.0" text="确认报修" />
+      <Label fx:id="bxmsg" layoutX="130.0" layoutY="254.0" prefHeight="45.0" prefWidth="311.0" />
+   </children>
+</AnchorPane>

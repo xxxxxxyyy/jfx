@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="430.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Baoxiu">
+   <children>
+      <TextField fx:id="txtroom" layoutX="182.0" layoutY="165.0" prefHeight="39.0" prefWidth="234.0" promptText="请输入宿舍号" />
+      <Button fx:id="ok" layoutX="223.0" layoutY="349.0" mnemonicParsing="false" onAction="#qr" onMouseClicked="#bxok" prefHeight="30.0" prefWidth="152.0" text="报修" />
+      <Label fx:id="roommsg" layoutX="182.0" layoutY="204.0" prefHeight="39.0" prefWidth="191.0" />
+      <Label alignment="CENTER" layoutX="71.0" layoutY="170.0" prefHeight="30.0" prefWidth="70.0" text="宿舍号" />
+      <Label fx:id="bxcg" layoutX="204.0" layoutY="279.0" prefHeight="39.0" prefWidth="191.0" />
+      <TextField fx:id="txtbx" layoutX="181.0" layoutY="251.0" prefHeight="56.0" prefWidth="384.0" promptText="请输入报修信息" />
+      <Label alignment="CENTER" layoutX="35.0" layoutY="264.0" prefHeight="30.0" prefWidth="112.0" text="报修信息" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Baoxck">
+    <children>
+        <HBox styleClass="hboxTop" stylesheets="@../../../../../css/student.css">
+            <children>
+                <ComboBox fx:id="comFind" />
+                <TextField fx:id="txtkey" styleClass="txtkey" stylesheets="@../../../../../css/student.css" HBox.hgrow="ALWAYS" />
+                <Button mnemonicParsing="false" onAction="#findClick" styleClass="btnFind" stylesheets="@../../../../../css/student.css" text="查询" />
+                <Button mnemonicParsing="false" styleClass="btnAdd" stylesheets="@../../../../../css/student.css" text="选择" fx:id="xz">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </Button>
+            </children>
+        </HBox>
+        <TableView fx:id="tbroom" prefHeight="603.0" prefWidth="900.0" tableMenuButtonVisible="true">
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+            <columns>
+                <TableColumn fx:id="roomStuno" prefWidth="170.0" text="宿舍号" />
+                <TableColumn fx:id="tcmsg" prefWidth="728.0" text="报修信息" />
+            </columns>
+            <contextMenu>
+                <ContextMenu>
+                    <items>
+                        <MenuItem fx:id="editroom" mnemonicParsing="false" text="编辑">
+                            <graphic>
+                                <ImageView>
+                                    <image>
+                                        <Image url="@../../../../../picture/编辑(1).png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" text="删除">
+                            <graphic>
+                                <ImageView>
+                                    <image>
+                                        <Image url="@../../../../../picture/删除(1).png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </MenuItem>
+                    </items>
+                </ContextMenu>
+            </contextMenu>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </TableView>
+    </children>
+</VBox>

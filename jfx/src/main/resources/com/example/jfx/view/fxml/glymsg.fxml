@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="529.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.glymsg">
+   <children>
+      <Label layoutX="302.0" layoutY="177.0" prefHeight="57.0" prefWidth="458.0" text="请输入想查询个人信息的学号" />
+      <TextField fx:id="id" layoutX="338.0" layoutY="271.0" prefHeight="49.0" prefWidth="290.0" promptText="在此输入" />
+      <Button fx:id="cx" layoutX="442.0" layoutY="377.0" mnemonicParsing="false" onAction="#cxok" prefHeight="30.0" prefWidth="104.0" text="查询" />
+      <Label fx:id="err" layoutX="338.0" layoutY="320.0" prefHeight="42.0" prefWidth="241.0" />
+   </children>
+</AnchorPane>

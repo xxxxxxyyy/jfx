@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Addmanger">
+   <children>
+      <TextField fx:id="txtstuno" layoutX="121.0" layoutY="60.0" prefHeight="35.0" prefWidth="321.0" promptText="请输入账号" />
+      <TextField fx:id="txtpassword" layoutX="121.0" layoutY="165.0" prefHeight="35.0" prefWidth="321.0" promptText="请输入密码" />
+      <Label layoutX="37.0" layoutY="60.0" prefHeight="35.0" prefWidth="74.0" text="账号" />
+      <Label layoutX="37.0" layoutY="165.0" prefHeight="35.0" prefWidth="74.0" text="密码" />
+      <Button fx:id="ad" layoutX="218.0" layoutY="259.0" mnemonicParsing="false" onAction="#addmanger" prefHeight="30.0" prefWidth="128.0" text="确认添加" />
+      <Label fx:id="errstuno" layoutX="121.0" layoutY="104.0" prefHeight="35.0" prefWidth="268.0" />
+      <Label fx:id="errpassword" layoutX="121.0" layoutY="215.0" prefHeight="35.0" prefWidth="268.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="870.0" prefWidth="410.0" styleClass="leftmeun" stylesheets="@../../../../../css/leftmenu.css"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.leftmeun">
+   <children>
+
+      <HBox alignment="TOP_CENTER" onMouseClicked="#item002Clicked" prefHeight="171.0" prefWidth="385.0" styleClass="leftmeunitem">
+         <children>
+            <ImageView fitHeight="137.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true" x="123.0">
+               <image>
+                  <Image url="@../../../../../picture/登录.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="176.0" prefWidth="220.0" text="登录">
+               <font>
+                  <Font size="82.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" onMouseClicked="#item021Clicked" prefHeight="214.0" prefWidth="410.0" styleClass="leftmeunitem">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="175.0" pickOnBounds="true" preserveRatio="true" x="123.0">
+               <image>
+                  <Image url="@../../../../../picture/227注册、添加好友.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="176.0" prefWidth="220.0" text="注册">
+               <font>
+                  <Font size="82.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" onMouseClicked="#item022Clicked" prefHeight="250.0" prefWidth="187.0" styleClass="leftmeunitem">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="171.0" pickOnBounds="true" preserveRatio="true" x="123.0">
+               <image>
+                  <Image url="@../../../../../picture/227注册、添加好友.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="176.0" prefWidth="220.0" text="查看">
+               <font>
+                  <Font size="82.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>

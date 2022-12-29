@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="891.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.Msgck">
+   <children>
+      <Label alignment="CENTER" layoutX="95.0" layoutY="67.0" prefHeight="29.0" prefWidth="60.0" text="学号">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="errsid" layoutX="172.0" layoutY="96.0" prefHeight="30.0" prefWidth="202.0" />
+      <TextField fx:id="txtsid" disable="true" layoutX="172.0" layoutY="66.0" />
+      <Button layoutX="215.0" layoutY="606.0" mnemonicParsing="false" onAction="#qrxg" text="修改个人信息" fx:id="xg" />
+      <TextField fx:id="txtpassword" layoutX="172.0" layoutY="126.0" promptText="请输入密码" />
+      <Label fx:id="errpassword" layoutX="172.0" layoutY="156.0" prefHeight="30.0" prefWidth="202.0" styleClass="errorText" stylesheets="@../../../../../css/addStu.css" />
+      <Label alignment="CENTER" layoutX="95.0" layoutY="127.0" prefHeight="29.0" prefWidth="60.0" text="密码">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField fx:id="txtname" layoutX="172.0" layoutY="186.0" promptText="请输入姓名" />
+      <Label fx:id="errname" layoutX="172.0" layoutY="216.0" prefHeight="30.0" prefWidth="202.0" styleClass="errorText" stylesheets="@../../../../../css/addStu.css" />
+      <Label alignment="CENTER" layoutX="95.0" layoutY="187.0" prefHeight="29.0" prefWidth="60.0" text="姓名">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField fx:id="txtsex" layoutX="169.0" layoutY="246.0" promptText="请输入性别" />
+      <Label fx:id="errsex" layoutX="169.0" layoutY="276.0" prefHeight="30.0" prefWidth="202.0" styleClass="errorText" stylesheets="@../../../../../css/addStu.css" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="247.0" prefHeight="29.0" prefWidth="60.0" text="性别">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField fx:id="txtage" layoutX="169.0" layoutY="306.0" promptText="请输入年龄" />
+      <Label fx:id="errage" layoutX="169.0" layoutY="336.0" prefHeight="30.0" prefWidth="202.0" styleClass="errorText" stylesheets="@../../../../../css/addStu.css" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="307.0" prefHeight="29.0" prefWidth="60.0" text="年龄">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField fx:id="txtdh" layoutX="169.0" layoutY="366.0" promptText="请输入联系电话" />
+      <Label fx:id="errdh" layoutX="169.0" layoutY="396.0" prefHeight="30.0" prefWidth="202.0" styleClass="errorText" stylesheets="@../../../../../css/addStu.css" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="367.0" prefHeight="29.0" prefWidth="60.0" text="电话">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField fx:id="txtrid" disable="true" layoutX="169.0" layoutY="426.0" />
+      <Label layoutX="169.0" layoutY="456.0" prefHeight="30.0" prefWidth="202.0" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="427.0" prefHeight="32.0" prefWidth="74.0" text="宿舍号">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField fx:id="txtbed" disable="true" layoutX="169.0" layoutY="486.0" />
+      <Label layoutX="169.0" layoutY="516.0" prefHeight="30.0" prefWidth="202.0" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="487.0" prefHeight="29.0" prefWidth="60.0" text="床位">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="errmsg" layoutX="171.0" layoutY="573.0" prefHeight="30.0" prefWidth="202.0" styleClass="errorText" stylesheets="@../../../../../css/addStu.css" />
+   </children>
+</AnchorPane>
+

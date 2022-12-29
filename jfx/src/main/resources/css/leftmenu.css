@@ -1,0 +1,12 @@
+.leftmeun{
+    -fx-background-color: #555566;
+}
+.leftmeunitem{
+    -fx-padding: 20px;
+}
+.leftmeunitem:hover{
+    -fx-background-color: #d30101;
+}
+.leftmeunitem .label{
+    -fx-padding:0 0 0 20px;
+}
